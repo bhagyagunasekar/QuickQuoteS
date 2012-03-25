@@ -33,33 +33,9 @@ public class QuoteResource {
 		List<String>insuranceTypes = new ArrayList<String>();
 		insuranceTypes.add("Auto");
 		insuranceTypes.add("Home");
-		insuranceTypes.add("Marine");
-		insuranceTypes.add("Life");
+		//insuranceTypes.add("Marine");
+		//insuranceTypes.add("Life");
 		return insuranceTypes;
 	}
-
-// --
-//	@GET
-//	@Produces("text/html")
-//	public StreamingOutput getInsuranceTypes() {
-//		final List<String> insuranceTypes = getInsuranceTypeData();
-//		return new StreamingOutput() {
-//			public void write(OutputStream output) 
-//					throws IOException, WebApplicationException {
-//				outputInsuranceTypes(output, insuranceTypes);
-//			}
-//		};
-//	}
-//	protected void outputInsuranceTypes(OutputStream os, List<String>insuranceTypes) {
-//		PrintStream writer = new PrintStream(os);
-//		final String listItem = "\t<li>%s</li>\n";
-//		
-//		writer.println("<ul>\n");
-//		for (String insurance : insuranceTypes) {
-//			writer.println(String.format(listItem, insurance));
-//		}
-//		writer.println("</ul>\n");
-//	}
-// --
 
 }

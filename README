@@ -1,0 +1,18 @@
+QuickQuote web application for the DevOps Accelerator Demo
+
+
+build.xml assumes the following:
+
+1.) Tomcat is installed
+2.) CATALINA_HOME is set
+3.) Start/stop tomcat does NOT require a password
+
+If all three of these are true, running 'ant deploy' will get the app running:
+http://localhost:8080/quickquote/index.jsp
+
+If something is different about your config, running 'ant war' will build the war in dist/.
+
+To add/remove radio buttons from the main page, edit com.servicemesh.devops.demo.quickquote.QuoteResource.java
+
+Simply add/remove an item to the List<String> in the getInsuranceTypesData() function.
+
