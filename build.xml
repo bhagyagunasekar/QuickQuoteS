@@ -9,12 +9,16 @@
 
 	<property environment="env"/>
 	<property name="tomcat.home" value="${env.CATALINA_HOME}"/>
+
+	<property name="repo.key" value="/Users/sysmythe/Projects/appstore/keys/demo-220-35.key"/>
 	
 	<tstamp prefix="build-info">
 		<format property="current-date" pattern="d-MMMM-yyyy" locale="en"/>
 		<format property="current-time" pattern="hh:mm:ss a z" locale="en"/>
+		<format property="package-time" pattern="hh:mm:ss" locale="en"/>
 	</tstamp>
 
+	
 	<path id="project.class.path">
 		<pathelement location="${class.root}"/>
 		<fileset dir="${lib.dir}">
@@ -30,6 +34,7 @@
 	<target name="test">
 		<echo> Built-By : ${builder}</echo>
 		<echo>CATALINA_HOME = ${env.CATALINA_HOME}</echo>
+		<echo>PACKAGE : ${build-info.package-time}</echo>
 	</target>
 
 	<target name="init">
@@ -78,4 +83,11 @@
 	<target name="stop-tomcat">
 		<exec executable="${tomcat.home}/bin/shutdown.sh"></exec>
 	</target>
+	
+	<target name="push" depends="war">
+		<scp file="${dist.dir}/${project.name}.war"
+       			remoteToFile="root@192.168.220.131:/var/www/html/${project.name}.${build-info.package-time}.war" 
+       			keyfile="${repo.key}"/>
+	</target>
+
 </project>
