@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>epaas.devops-test3</groupId>
+    <artifactId>devops-test3</artifactId>
+    <version>0</version>
+  </parent>
+  <name>quickquote3</name>
+  <groupId>devops-test3</groupId>
+  <artifactId>quickquote3</artifactId>
+  <version>3780</version>
+  <packaging>war</packaging>
+  
+</project>

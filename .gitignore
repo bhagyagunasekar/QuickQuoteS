@@ -2,3 +2,7 @@
 \.project
 classes/
 dist/
+\.classpath
+\.epc_project
+\.metadata
+\.settings
