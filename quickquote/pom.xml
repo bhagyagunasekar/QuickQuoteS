@@ -14,9 +14,9 @@
     <artifactId>devops-test3</artifactId>
     <version>0</version>
   </parent>
-  <name>quickquote3</name>
+  <name>quickquote</name>
   <groupId>devops-test3</groupId>
-  <artifactId>quickquote3</artifactId>
+  <artifactId>quickquote</artifactId>
   <version>3780</version>
   <packaging>war</packaging>
   

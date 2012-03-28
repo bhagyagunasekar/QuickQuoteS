@@ -36,7 +36,7 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>quickquote3</module>
+		<module>quickquote</module>
 	</modules>
 
 	<build>
@@ -60,6 +60,7 @@
 
 		</plugins>
 	</build>
+
 	<dependencies>
 		<!-- JSP -->
 		<dependency>
