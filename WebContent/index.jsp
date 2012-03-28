@@ -2,6 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="-0">
         <title>QuickQuote</title>
         
         <link href="css/grid.css" rel="stylesheet" type="text/css" />
