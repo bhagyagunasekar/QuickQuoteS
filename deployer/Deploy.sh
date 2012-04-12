@@ -37,7 +37,7 @@ function _debug() {
 function _trace() {
 	_log $TRACE TRACE "$@"
 }
-
+ 
 source /etc/profile
 
 function getManagerUrl() {
@@ -51,7 +51,7 @@ function getManagerUrl() {
 
 declare -r AGILITY_URL=$(getManagerUrl)
 
-_debug "[AGILITY_URL] : "${AGILITY_URL}
+_debug "[AGILITY_URL] : "$AGILITY_URL
 _debug "[REPO_USER] : "${REPO_USER}
 _debug "[REPO_PASSWORD] : "${REPO_PASSWORD}
 _debug "[PACKAGE_URL] : "${PACKAGE_URL}
@@ -79,12 +79,6 @@ function success() {
 }
 
 function validateRequiredVariables() {
-
-#	[ -z ${PACKAGE_URL} ] && { _error "\$PACKAGE_URL is null."; exit 1; }
-#	[ -z ${REPO_USER} ] && { _error "\$REPO_USER is null."; exit 1; }
-#	[ -z ${REPO_PASSWORD} ] && { _error "\$REPO_PASSWORD is null."; exit 1; }
-#	[ -z $CATALINA_HOME ] && { _error "\$CATALINA_HOME is null."; exit 1; }
-
 	[ -z ${REQUEST_ID} ] && failure "\\$REQUEST_ID is null."
 	[ -z ${PACKAGE_ID} ] && failure "\\$PACKAGE_ID is null."
 	[ -z ${PACKAGE_URL} ] && failure "\\$PACKAGE_URL is null."
@@ -136,7 +130,6 @@ cat <<vareof
 vareof
 }
 
-
 function getDeployedUrl() {
 	local url='not-deployed'
 	[ "$STATUS" == "SUCCESS" ] && url=${this.publicAddress}
@@ -145,16 +138,10 @@ function getDeployedUrl() {
 	</#noparse>
 }
 
-
-
 function setDeployerStatus() {
 	local status=$1; shift
 	local message="$@"
 	# Build uri to variable for api call
-	#<#assign agility = "${Manager.Protocol}://${Manager.Address}:${Manager.Port}"/>
-	
-	#local agilityUrl=$(getManagerUrl)
-
 	<#assign variable = this.template.topology.lookupVariable("DEPLOYER_STATUS")/>
 	variableId=$(echo ${variable.id} | tr -d ',')
 
@@ -176,9 +163,6 @@ function setDeployerStatus() {
 	# PUT var xml
 	curl -s -X PUT -u 'admin:M3sh@dmin!' -k -H 'Content-Type:application/xml' \
 	        -T $variableXml $uri
-
-	_debug "STATUS-CODE : $?"
-	_debug "PUT => $uri"
 	
 	rm -f $variableXml
 }
@@ -270,7 +254,7 @@ fi
 
 <#noparse>
 # ReleaseManager names the package {appName}-{buildNumber}.war' 
-# Strip of the '-{buildNumber}'
+# Strip off the '-{buildNumber}'
 originalPackageName=$packageName
 packageName=${packageName%%-*}.war
 </#noparse>
@@ -302,16 +286,9 @@ sleep 5
 # -----------------------------------------------------------------------------
 if ps -ef | grep [t]omcat; then
 	msg="'$packageName' has been deployed. [SUCCESS]"
-	#_info "$msg"
-	#setDeployerStatus SUCCESS "$msg"
-	#status=0
 	success "$msg"
 else
 	msg="Failed starting Tomcat. [FAILURE]"
-	#_error "$msg"
-	#STATUS=SUCCESS
-	#setDeployerStatus FAILURE "$msg"
-	#status=1
 	failure "$msg"
 fi
 exit $status
