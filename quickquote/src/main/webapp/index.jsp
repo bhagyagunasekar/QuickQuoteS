@@ -181,7 +181,7 @@
                 <div class="widget-content">
                     <p>
                     <a href="" class="thumbnail" id="agency-performance-th"></a>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam magna sem, fringilla in, commodo a, rutrum ut, massa. Donec id nibh eu dui auctor tempor. Morbi laoreet eleifend dolor. Suspendisse pede odio, accumsan vitae, auctor non, suscipit at, ipsum. Cras varius sapien vel lectus.</p>
+                    Business service to analyze performance of application intake and quote generation for a specific agency.
                 </div>
             </li>
         </ul>
@@ -195,11 +195,12 @@
                 <div class="widget-content">
                     <p>
                     <a href="" id="my-inbox-th" class="thumbnail"></a>
-                    Business service to enable an agent to receive alerts and notifications about various events like business perforamce.</p>
+                    Business service to enable an agent to receive alerts and notifications about various events like business performance.</p>
                     <br/><br/>
                     <a href="#">Learn More</a>
                 </div>
             </li>
+            
             <li class="widget color-orange">  
                 <div class="widget-head">
                     <h3>Track Quote</h3>
@@ -207,11 +208,12 @@
                 <div class="widget-content">
                     <p>
                     <a href="" class="thumbnail" id="track-quote-th"></a>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam magna sem, fringilla in, commodo a, rutrum ut, massa. Donec id nibh eu dui auctor tempor. Morbi laoreet eleifend dolor. Suspendisse pede odio, accumsan vitae, auctor non, suscipit at, ipsum. Cras varius sapien vel lectus.</p>
+                    Business service to track the status of the application/quote on the basis of the unique ID.
                     <br/>
                     <a href="#">Learn More</a>
                 </div>
             </li>
+            
             <li class="widget color-white">  
                 <div class="widget-head">
                     <h3>Quote Performance</h3>
@@ -219,7 +221,7 @@
                 <div class="widget-content">
                     <p>
                     <a href="" class="thumbnail" id="quote-performance-th"></a>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam magna sem, fringilla in, commodo a, rutrum ut, massa. Donec id nibh eu dui auctor tempor. Morbi laoreet eleifend dolor. Suspendisse pede odio, accumsan vitae, auctor non, suscipit at, ipsum. Cras varius sapien vel lectus.</p>
+                    Business service to analyze performance of application intake and quote generation.
 					<br/><a href="#">Learn More</a>
                 </div>
              </li>
@@ -230,7 +232,7 @@
                 <div class="widget-content">
                     <p>
                     <a href="" class="thumbnail" id="pay-premium-th"></a>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam magna sem, fringilla in, commodo a, rutrum ut, massa. Donec id nibh eu dui auctor tempor. Morbi laoreet eleifend dolor. Suspendisse pede odio, accumsan vitae, auctor non, suscipit at, ipsum. Cras varius sapien vel lectus.</p>
+                    Premium payment for a policy during it's lifecycle, of the amounts due from the customer or to them.
 				<br/><a href="#">Learn More</a>
                 </div>
              </li>
@@ -256,7 +258,7 @@
                 <div class="widget-content">
                     <p>
                     <a href="" class="thumbnail" id="record-claim-th"></a>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam magna sem, fringilla in, commodo a, rutrum ut, massa. Donec id nibh eu dui auctor tempor. Morbi laoreet eleifend dolor. Suspendisse pede odio, accumsan vitae, auctor non, suscipit at, ipsum. Cras varius sapien vel lectus.</p>
+                    Record all elements about a claim being made by a customer or a claimant on an insurance company.
 				<br/><a href="#">Learn More</a>                    
                 </div>
             </li>
@@ -267,7 +269,7 @@
                 <div class="widget-content">
                     <p>
                     <a href="" class="thumbnail" id="issue-policy-th"></a>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam magna sem, fringilla in, commodo a, rutrum ut, massa. Donec id nibh eu dui auctor tempor. Morbi laoreet eleifend dolor. Suspendisse pede odio, accumsan vitae, auctor non, suscipit at, ipsum. Cras varius sapien vel lectus.</p>
+                    Generating insurance agreement document and delivering it to the customer after confirming the premium payment plan.
 				<br/><a href="#">Learn More</a>
                 </div>
             </li>       
@@ -278,7 +280,7 @@
                 <div class="widget-content">
                     <p>
                     <a href="" class="thumbnail" id="maintain-policy-th"></a>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam magna sem, fringilla in, commodo a, rutrum ut, massa. Donec id nibh eu dui auctor tempor. Morbi laoreet eleifend dolor. Suspendisse pede odio, accumsan vitae, auctor non, suscipit at, ipsum. Cras varius sapien vel lectus.</p>
+                    Policy modification events like endorsement, cancellation, lapse and reinstatement.
 				<br/><a href="#">Learn More</a>               
                 </div>
             </li>         

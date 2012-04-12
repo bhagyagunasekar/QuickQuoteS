@@ -43,7 +43,7 @@
 
 /* Set default button colors */
 .btn, .btn-icon, .btn-mini,
-.btn:visited, .btn-icon:visited, .btn-mini:visited {  background-image: url(../img/bg-lite.png); background-color: #263849; border-color: #16222C; color: #FFF; }
+.btn:visited, .btn-icon:visited, .btn-mini:visited {  background-image: url(../../img/bg-lite.png); background-color: #263849; border-color: #16222C; color: #FFF; }
 
 .btn:hover, .btn-icon:hover, .btn-mini:hover { background-color: #16222C; color: #FFF; }
 
@@ -106,7 +106,7 @@
 .btn-navy,
 .btn-maroon,
 .btn-teal,
-.btn-grey { background-image: url(../img/bg-dark.png) !important; }
+.btn-grey { background-image: url(../../img/bg-dark.png) !important; }
 
 
 /* 65% opacity for lighter colors */
@@ -114,7 +114,7 @@
 .btn-orange,
 .btn-green,
 .btn-yellow,
-.btn-pink { background-image: url(../img/bg-lite.png) !important; }
+.btn-pink { background-image: url(../../img/bg-lite.png) !important; }
 
 
 
@@ -124,7 +124,7 @@
 
 .btn-icon span
 {
-	background-image: url(../img/amp-btn-icon-sprite.png); 
+	background-image: url(../../img/amp-btn-icon-sprite.png); 
 	background-repeat: no-repeat; 
 	background-position: 0 0; 
 	width: 16px; 
@@ -157,7 +157,7 @@
 
 	.btn-mini span 
 	{ 
-		background-image: url(../img/amp-btn-icon-sprite.png); 
+		background-image: url(../../img/amp-btn-icon-sprite.png); 
 		background-repeat: no-repeat; 
 		display: block;
 		width: 16px; 
@@ -192,5 +192,5 @@
 	
 	
 /* Transparent Button Styles */
-.btn-transparent, .btn-transparent:hover { background-image: url(../img/images/bg-lite.png); background-color: transparent; filter: none; border-color: transparent\0/; border-color: rgba(0,0,0,.4) !important; margin: 0 1em 0 0; }
+.btn-transparent, .btn-transparent:hover { background-image: url(../../img/images/bg-lite.png); background-color: transparent; filter: none; border-color: transparent\0/; border-color: rgba(0,0,0,.4) !important; margin: 0 1em 0 0; }
 *+html .btn-transparent { border: none; }

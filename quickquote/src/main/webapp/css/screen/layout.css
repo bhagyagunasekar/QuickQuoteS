@@ -7,7 +7,7 @@ body
 
 #wrapper { width: 100%; min-width: 960px; margin: 0 auto 50px; }
 
-#header { background: #263849 url(../images/header_bg.png) repeat-x 0 0; width: 93%; height: 96px; margin: 0 auto; position: relative; }
+#header { background: #263849 url(../../img/header_bg.png) repeat-x 0 0; width: 93%; height: 96px; margin: 0 auto; position: relative; }
 
 	#header h1
 	{

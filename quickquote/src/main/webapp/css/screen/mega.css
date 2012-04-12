@@ -38,7 +38,7 @@
 .mega-current .mega-tab,
 .mega-current .mega-link
 {
-	background: url(../img/button-gradient.png) repeat-x right -200px;	
+	background: url(../../img/button-gradient.png) repeat-x right -200px;	
 	font-weight: bold;
 	color: #222;	
 	font-size: 12px;
@@ -142,7 +142,7 @@
 			border-radius: 4px;
 		}
 		
-		.mega-menu li a.hasSub { background-image:  url(../img/link-menu-arrow.png); background-repeat: no-repeat; background-position: 95% 50% ;}
+		.mega-menu li a.hasSub { background-image:  url(../../img/link-menu-arrow.png); background-repeat: no-repeat; background-position: 95% 50% ;}
 
 		
 			.mega-menu li a:hover { background-color: #DDD; }
