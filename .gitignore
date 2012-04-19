@@ -6,3 +6,4 @@ dist/
 \.epc_project
 \.metadata
 \.settings
+target
