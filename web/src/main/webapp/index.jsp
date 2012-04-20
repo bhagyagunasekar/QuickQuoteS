@@ -23,7 +23,7 @@
 		<!--<h1><a href="#">Quick Quote</a></h1>-->
 		<h1>Open Insurance</h1>
 		<div id="info">
-			<h4>Welcome User!</h4>
+			<h4>Welcome User!!!</h4>
 			<p>
 				Logged in as Admin
 				<br />
