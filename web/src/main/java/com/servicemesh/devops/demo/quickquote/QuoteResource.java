@@ -34,7 +34,7 @@ public class QuoteResource {
 		insuranceTypes.add("Auto");
 		insuranceTypes.add("Home");
 		insuranceTypes.add("Marine");
-		insuranceTypes.add("Banana");	
+		//insuranceTypes.add("Banana");	
 		insuranceTypes.add("Life");
 		return insuranceTypes;
 	}
