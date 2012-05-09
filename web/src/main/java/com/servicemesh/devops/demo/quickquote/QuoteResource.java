@@ -34,7 +34,7 @@ public class QuoteResource {
 		insuranceTypes.add("Auto");
 		insuranceTypes.add("Home");
 		insuranceTypes.add("Marine");
-		//insuranceTypes.add("TEOTWAWKI");
+		insuranceTypes.add("Life");
 		return insuranceTypes;
 	}
 
