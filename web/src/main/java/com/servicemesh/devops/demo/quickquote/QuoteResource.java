@@ -33,7 +33,7 @@ public class QuoteResource {
 		List<String>insuranceTypes = new ArrayList<String>();
 		insuranceTypes.add("Auto");
 		insuranceTypes.add("Home");
-		insuranceTypes.add("Marine");
+		insuranceTypes.add("Antelope");
 		insuranceTypes.add("Life");
 		return insuranceTypes;
 	}
