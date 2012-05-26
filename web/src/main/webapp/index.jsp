@@ -14,6 +14,10 @@
 	<%@ page import = "com.servicemesh.devops.demo.quickquote.QuoteResource" %>
 	<%
 		QuoteResource quote = new QuoteResource();
+	    String appName =  System.getenv("APP_NAME");
+	    if (appName == "") {
+	    	appName == "Quick Quote"'
+	    }
 	%>
 </head>
 
@@ -21,7 +25,7 @@
     <div id="wrapper">
 	<div id="header">
 		<!--<h1><a href="#">Quick Quote</a></h1>-->
-		<h1>Open Insurance</h1>
+		<h1><%=appName%></h1>
 		<div id="info">
 			<h4>Welcome, User</h4>
 			<p>
