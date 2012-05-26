@@ -15,7 +15,7 @@
 	<%
 		QuoteResource quote = new QuoteResource();
 	    String appName =  System.getenv("APP_NAME");
-	    if (appName == "") {
+	    if (!appName) {
 	    	appName = "Quick Quote";
 	    }
 	%>
