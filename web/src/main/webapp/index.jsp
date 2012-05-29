@@ -159,7 +159,7 @@
 					<li>Modify Quote</li>
 					<li>View Quote</li>
 					<li>Copy Quote</li>
-					<li>Change Status</li>
+					<li>Update Status</li>
 				</ul>
 				</fieldset>
 				</fieldset>
