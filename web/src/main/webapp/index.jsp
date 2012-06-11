@@ -27,7 +27,7 @@
 		<!--<h1><a href="#">Quick Quote 2</a></h1>-->
 		<h1><%=appName%></h1>
 		<div id="info">
-			<h4>Welcome, User: </h4>
+			<h4>Welcome, User:      </h4>
 			<p>
 				Logged in as Admin
 				<br />
