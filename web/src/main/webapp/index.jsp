@@ -124,7 +124,7 @@
                 <div class="widget-content">
                     <p>
                     <a href="" class="thumbnail" id="quick-quote-th">qq</a>
-                    Business service to enable multi-channel, multi-line, pre-underwritten, quote processing capability.  This enables the Producers straigh-through-processing since it is self-sufficient for field-underwriting, thus enabling instance issuance of quote by Producers.
+                    A Business service to enable multi-channel, multi-line, pre-underwritten, quote processing capability.  This enables the Producers straigh-through-processing since it is self-sufficient for field-underwriting, thus enabling instance issuance of quote by Producers.
                     <br/>
                     <a href="#">Learn More</a>
                     </p>
