@@ -199,7 +199,7 @@
                 <div class="widget-content">
                     <p>
                     <a href="" id="my-inbox-th" class="thumbnail"></a>
-                    Business service to enable an agent to receive alerts and notifications about various events like business performance.</p>
+                    Business service to enable an agent to receive alerts and notifications about various events like business performance or their super cool cloud computing implementation.  Hello!</p>
                     <br/><br/>
                     <a href="#">Learn More</a>
                 </div>
