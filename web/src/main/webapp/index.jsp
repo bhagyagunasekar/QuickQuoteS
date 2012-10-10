@@ -169,7 +169,7 @@
             </form>
             <li class="widget color-red">  
                 <div class="widget-head">
-                    <h3>Full Quote</h3>
+                    <h3>Full Quote!</h3>
                 </div>
                 <div class="widget-content">
                     <p>
