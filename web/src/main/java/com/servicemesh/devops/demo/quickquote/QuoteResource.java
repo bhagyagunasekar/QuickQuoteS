@@ -35,7 +35,6 @@ public class QuoteResource {
 		insuranceTypes.add("Home");
 		insuranceTypes.add("Marine");
 		insuranceTypes.add("Life");
-		insuranceTypes.add("SalesTraining");
 		return insuranceTypes;
 	}
 
