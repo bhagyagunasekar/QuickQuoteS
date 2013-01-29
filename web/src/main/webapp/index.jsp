@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
 	<META HTTP-EQUIV="Expires" CONTENT="-0">
-        <title>QuickQuote</title>
+        <title>QuickQuote Yea Haw!</title>
         
         <link href="css/grid.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="css/grid.js.css" type="text/css" media="screen" title="no title" charset="utf-8" />
@@ -126,7 +126,7 @@
                     <a href="" class="thumbnail" id="quick-quote-th">qq</a>
                     A Business service to enable multi-channel, multi-line, pre-underwritten, quote processing capability.  This enables the Producers straigh-through-processing since it is self-sufficient for field-underwriting, thus enabling instance issuance of quote by Producers.
                     <br/>
-                    <a href="#">Learn More</a>
+                    <a href="#">Learn More Today!</a>
                     </p>
                     
                 <form id="quickquoteform"  method="post" action="">
