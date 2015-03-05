@@ -36,7 +36,7 @@ public class QuoteResource {
 		insuranceTypes.add("Marine");
 		insuranceTypes.add("Life");
 		insuranceTypes.add("Travel");
-	    insuranceTypes.add("Music");
+	 //   insuranceTypes.add("Music");
 		return insuranceTypes;
 	}
 
