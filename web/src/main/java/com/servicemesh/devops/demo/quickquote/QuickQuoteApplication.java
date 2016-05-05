@@ -24,3 +24,4 @@ public class QuickQuoteApplication extends Application {
 	}
 
 }
+
